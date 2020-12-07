@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 3.0.1 (2020-12-07)
+
+
+### Bug Fixes
+
+* merge without ! from merge ([3aef857](https://github.com/murad357/version-pull-request/commit/3aef8573747df91052a6b02930e3d3a2ef61724c))
+
 ## 3.0.0 (2020-12-07)
 
 
