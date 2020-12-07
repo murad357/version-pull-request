@@ -12,10 +12,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    if: |
-      github.event.pull_request.merged &&
-      github.ref != 'refs/heads/master' &&
-      !startsWith(github.event.head_commit.message, 'docs')
+    if: github.event.pull_request.merged && !startsWith(github.event.head_commit.message, 'docs')
 
     steps:
     - uses: actions/checkout@v2
